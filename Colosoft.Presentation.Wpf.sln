@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F028B1D5-9B24-4465-B522-29787B7D2104}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colosoft.Presentation.Wpf", "src\Colosoft.Presentation.Wpf\Colosoft.Presentation.Wpf.csproj", "{3A1BAA37-86D1-4DAD-99D1-1280A6ECCB42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colosoft.Presentation.Wpf.Interop", "src\Colosoft.Presentation.Wpf.Interop\Colosoft.Presentation.Wpf.Interop.csproj", "{7394BBD3-2FEE-419D-B3DA-EC3CB1DBD706}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colosoft.Presentation.Prism.Wpf", "src\Colosoft.Presentation.Prism.Wpf\Colosoft.Presentation.Prism.Wpf.csproj", "{417C9158-9D40-4BA4-863E-C5A96441D703}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colosoft.Presentation.Xaml.Behaviors.Wpf", "src\Colosoft.Presentation.Xaml.Behaviors.Wpf\Colosoft.Presentation.Xaml.Behaviors.Wpf.csproj", "{73347126-D5D5-4FF7-B38D-C88E2C7A16F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A1BAA37-86D1-4DAD-99D1-1280A6ECCB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1BAA37-86D1-4DAD-99D1-1280A6ECCB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1BAA37-86D1-4DAD-99D1-1280A6ECCB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1BAA37-86D1-4DAD-99D1-1280A6ECCB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7394BBD3-2FEE-419D-B3DA-EC3CB1DBD706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7394BBD3-2FEE-419D-B3DA-EC3CB1DBD706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7394BBD3-2FEE-419D-B3DA-EC3CB1DBD706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7394BBD3-2FEE-419D-B3DA-EC3CB1DBD706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417C9158-9D40-4BA4-863E-C5A96441D703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417C9158-9D40-4BA4-863E-C5A96441D703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417C9158-9D40-4BA4-863E-C5A96441D703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417C9158-9D40-4BA4-863E-C5A96441D703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73347126-D5D5-4FF7-B38D-C88E2C7A16F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73347126-D5D5-4FF7-B38D-C88E2C7A16F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73347126-D5D5-4FF7-B38D-C88E2C7A16F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73347126-D5D5-4FF7-B38D-C88E2C7A16F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A1BAA37-86D1-4DAD-99D1-1280A6ECCB42} = {F028B1D5-9B24-4465-B522-29787B7D2104}
+		{7394BBD3-2FEE-419D-B3DA-EC3CB1DBD706} = {F028B1D5-9B24-4465-B522-29787B7D2104}
+		{417C9158-9D40-4BA4-863E-C5A96441D703} = {F028B1D5-9B24-4465-B522-29787B7D2104}
+		{73347126-D5D5-4FF7-B38D-C88E2C7A16F5} = {F028B1D5-9B24-4465-B522-29787B7D2104}
+	EndGlobalSection
+EndGlobal
