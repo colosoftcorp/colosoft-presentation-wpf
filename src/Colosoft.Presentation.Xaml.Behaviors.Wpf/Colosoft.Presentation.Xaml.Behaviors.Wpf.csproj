@@ -5,6 +5,7 @@
 		<TargetFrameworks>net8.0-windows;net472</TargetFrameworks>
 		<UseWPF>true</UseWPF>
 		<RootNamespace>Colosoft.Presentation</RootNamespace>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
 	</PropertyGroup>
 
 	<ItemGroup>
