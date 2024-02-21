@@ -4,7 +4,7 @@ namespace Colosoft.Presentation.Input
 {
     public class RoutedCommandFactory : IRoutedCommandFactory
     {
-        private readonly KeyGestureConverter keyGestureConverter = new KeyGestureConverter();
+        private readonly System.Windows.Input.KeyGestureConverter keyGestureConverter = new System.Windows.Input.KeyGestureConverter();
 
         public IRoutedCommand Create(string name, ICommand command, CommandDescription description)
         {
@@ -31,7 +31,8 @@ namespace Colosoft.Presentation.Input
             {
                 if (i is KeyGesture keyGesture)
                 {
-                    result.Add(this.keyGestureConverter.ConvertFromInvariantString(keyGesture.GetDisplayStringForCulture(System.Globalization.CultureInfo.CurrentUICulture)) as System.Windows.Input.KeyGesture);
+                    var keyGesture2 = this.keyGestureConverter.ConvertFromInvariantString(keyGesture.GetDisplayStringForCulture(System.Globalization.CultureInfo.CurrentUICulture));
+                    result.Add(keyGesture2 as System.Windows.Input.KeyGesture);
                 }
             }
 

@@ -1,0 +1,27 @@
+﻿<colosoft:Window
+    x:Class="WpfSample.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:colosoft="http://www.colosoft.com/2015/presentation"
+    xmlns:viewModels="clr-namespace:WpfSample.ViewModels"
+    x:TypeArguments="viewModels:MainWindowViewModel"
+    Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock Text="{Binding Title}" />
+        <TextBlock Text="{Binding Text}" />
+        <Button Grid.Column="1" Grid.Row="1" Width="100" Height="100" Command="{Binding Path=ShowAboutCommand, Mode=OneWay}">About</Button>
+    </Grid>
+</colosoft:Window>

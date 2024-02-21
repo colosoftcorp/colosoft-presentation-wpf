@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colosoft.Presentation.Prism
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colosoft.Presentation.Xaml.Behaviors.Wpf", "src\Colosoft.Presentation.Xaml.Behaviors.Wpf\Colosoft.Presentation.Xaml.Behaviors.Wpf.csproj", "{73347126-D5D5-4FF7-B38D-C88E2C7A16F5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{1E8CDAA2-83EC-422A-8BBD-EBA6B4B019D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfSample", "samples\WpfSample\WpfSample.csproj", "{24ACDD33-AAD3-415E-9379-EC1764BE8AAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{73347126-D5D5-4FF7-B38D-C88E2C7A16F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73347126-D5D5-4FF7-B38D-C88E2C7A16F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73347126-D5D5-4FF7-B38D-C88E2C7A16F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24ACDD33-AAD3-415E-9379-EC1764BE8AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24ACDD33-AAD3-415E-9379-EC1764BE8AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24ACDD33-AAD3-415E-9379-EC1764BE8AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24ACDD33-AAD3-415E-9379-EC1764BE8AAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +52,6 @@ Global
 		{7394BBD3-2FEE-419D-B3DA-EC3CB1DBD706} = {F028B1D5-9B24-4465-B522-29787B7D2104}
 		{417C9158-9D40-4BA4-863E-C5A96441D703} = {F028B1D5-9B24-4465-B522-29787B7D2104}
 		{73347126-D5D5-4FF7-B38D-C88E2C7A16F5} = {F028B1D5-9B24-4465-B522-29787B7D2104}
+		{24ACDD33-AAD3-415E-9379-EC1764BE8AAC} = {1E8CDAA2-83EC-422A-8BBD-EBA6B4B019D3}
 	EndGlobalSection
 EndGlobal
